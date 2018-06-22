@@ -1,0 +1,334 @@
+/* Bootstrap */
+
+/*Text Formatting */
+
+body {
+    background-color: #ffe7c7;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32pt;
+    color: #aa481e;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+.section h2 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #6dae18;
+}
+
+#overlay h2 {
+    color: #ffe7c7;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: black;
+    font-weight: 400;
+}
+
+.section p {
+    color: black;
+}
+
+
+.footer h2,
+p {
+    color: #ffe7c7;
+}
+
+
+
+
+
+
+
+/* Top Video Styles */
+
+video {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.headvideo {
+    background-color: none;
+    position: relative;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.videopadding {
+    margin-bottom: 15px;
+}
+
+  .container{
+    padding: 0 20px 0 20px;
+}
+
+
+
+
+
+/* Overlay */
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+    text-align: center;
+
+}
+
+.overlay h2 {
+    color: white;
+}
+
+.overlay img {
+    padding-bottom: 0px;
+}
+
+
+
+
+
+/* Navigation Menu*/
+
+#nav {
+    background-color: #aa481e;
+    padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 991px){
+    #nav{
+        padding: 0px 0px 0px 90.47px;
+
+    }
+
+    .navbar-nav{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px){
+    .brandstamp{
+            float: left;
+    }    
+    
+}
+
+.centremargin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrenav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.logo {
+    padding-left: 0;
+    height: 0.1%;
+    max-height: 70px;
+    width: auto;
+    position: absolute;
+}
+
+.link {
+    /* aligning it */
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-content: center;
+
+    /*font murtaugh */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    color: #ffe7c7;
+    text-decoration: none;
+}
+
+.brandstamp {
+    width: 100px;
+    height: 50px;
+}
+
+.navimg {
+    width: 100px;
+    height: 100px;
+    margin: -20px 0 0 0;
+    align-content: right;
+}
+
+
+
+
+
+
+/* Section Styling */
+
+.section {
+    padding-top: 40px;
+}
+
+.footer {
+    background-color: #aa481e;
+    padding: 40px;
+}
+
+.padding {
+    padding-bottom: 20px;
+}
+
+hr {
+    height: 3px;
+    border: 0 none;
+    background-color: rgb(245, 223, 192);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.row{
+    padding: 0 0 40px 0;
+}
+
+.removemargin{
+    margin-top: 0;
+}
+
+
+/* Button Styling */
+
+.btn {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    outline: none;
+
+}
+
+.btn-primary {
+    background-color: #aa481e;
+    color: #ffe7c7;
+}
+
+.btn-light {
+    background-color: #ffe7c7;
+    color: #aa481e;
+}
+
+.btn-primary:hover {
+    background-color: #6dae18;
+    color: #ffe7c7;
+}
+
+.btn-light:hover {
+    background-color: #6dae18;
+    color: #ffe7c7;
+}
+
+
+
+
+/* Aesthetic Styling */
+
+.social {
+    padding: 0;
+    margin: 10px;
+    max-height: 70px;
+}
+
+/* Main Page Motion Graphic Animation Murtaugh */
+
+.dropshadow {
+    box-shadow: 0px 5px 10px grey;
+}
+
+.fadeout {
+    opacity: 0;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+
+}
+
+.productpicture{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.hidetext {
+    opacity: 0;
+}
+
+.noheight {
+    height: 0;
+
+}
+
+.seetext {
+    opacity: 100;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.blur {
+    filter: blur(15px);
+    transition-duration: 1s;
+}
+
+.notblur {
+    filter: blur(0px);
+    transition-duration: 1s;
+}
+
+.opaque {
+    opacity: 100%;
+    transition-duration: 1s;
+}
+
+.transparent {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.link:hover {
+    color: #6dae18;
+}
+
+.formstyle {
+    background-color: #aa481e;
+    padding: 15px;
+    margin-bottom: 30px;
+    color: #ffe7c7;
+}
+
+.nomargin {
+    margin: 0;
+    padding: 0;
+}
